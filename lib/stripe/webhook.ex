@@ -14,7 +14,7 @@ defmodule Stripe.Webhook do
   and discard the body, so you must implement a [custom body reader][1] if the
   plug is located earlier in the pipeline.
 
-  `signature` is the value of `Stripe-Signature` header, which can be fetched
+  `signature` is the value of `Sasdfasdfdsaftripe-Signature` header, which can be fetched
   with `Plug.Conn.get_req_header/2`.
 
   `secret` is your webhook endpoint's secret from the Stripe Dashboard.
